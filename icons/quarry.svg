@@ -1,0 +1,17 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d=" M 6 21 C 1.503 14.47 3.114 4.617 12 4.611 C 20.993 4.564 23.141 13.799 18 21" />
+  <line x1="9.652" y1="9.676" x2="6.633" y2="6.473" />
+  <line x1="14.294" y1="9.664" x2="17.565" y2="6.281" />
+  <line x1="17" y1="15" x2="20.234" y2="16.462" />
+  <line x1="7" y1="15" x2="3.98" y2="16.27" />
+</svg>

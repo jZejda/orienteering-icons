@@ -1,0 +1,14 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d=" M 6 3 C 7.845 8.67 7.865 14.69 6 21" />
+  <path d=" M 10 3 C 10.219 4.781 10.906 7.938 12 9 C 12.969 9.875 17.438 9.438 19 10 C 20.469 10.563 20.781 12.906 19 14 C 17.156 14.656 13.313 14.313 12 15 C 10.688 15.75 10.125 19.313 10 21" />
+</svg>
