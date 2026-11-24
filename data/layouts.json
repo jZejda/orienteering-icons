@@ -1,0 +1,96 @@
+{
+  "9.1": {
+    "type": "dimension",
+    "layout": "text",
+    "unit": "m",
+    "valueCount": 1,
+    "example": "2.5"
+  },
+  "9.2": {
+    "type": "dimension",
+    "layout": "dimensions",
+    "unit": "m",
+    "valueCount": 2,
+    "example": "8 × 4"
+  },
+  "9.3": {
+    "type": "dimension",
+    "layout": "split-diagonal",
+    "unit": "m",
+    "valueCount": 2,
+    "example": [
+      "0.5",
+      "3"
+    ]
+  },
+  "9.4": {
+    "type": "dimension",
+    "layout": "stacked",
+    "unit": "m",
+    "valueCount": 2,
+    "example": [
+      "2",
+      "3"
+    ]
+  },
+  "14.1": {
+    "type": "route",
+    "source": "templates/routes/template-start-distance.svg",
+    "distanceRequired": true,
+    "exampleDistanceM": 150
+  },
+  "15.1": {
+    "type": "route",
+    "source": "templates/routes/template-taped-away.svg",
+    "distanceRequired": true,
+    "exampleDistanceM": 60
+  },
+  "15.2": {
+    "type": "route",
+    "source": "templates/routes/template-taped-between.svg",
+    "distanceRequired": true,
+    "exampleDistanceM": 300
+  },
+  "15.3": {
+    "type": "route",
+    "source": "templates/routes/template-mandatory-crossing.svg",
+    "distanceRequired": false,
+    "exampleDistanceM": null
+  },
+  "15.4": {
+    "type": "route",
+    "source": "templates/routes/template-mandatory-passage.svg",
+    "distanceRequired": false,
+    "exampleDistanceM": null
+  },
+  "15.5": {
+    "type": "route",
+    "source": "templates/routes/template-taped-to-map-exchange.svg",
+    "distanceRequired": true,
+    "exampleDistanceM": 50
+  },
+  "15.6": {
+    "type": "route",
+    "source": "templates/routes/template-map-flip-row.svg",
+    "distanceRequired": false,
+    "exampleDistanceM": null
+  },
+  "16.1": {
+    "type": "route",
+    "source": "templates/routes/template-finish-taped.svg",
+    "distanceRequired": true,
+    "exampleDistanceM": 400
+  },
+  "16.2": {
+    "type": "route",
+    "source": "templates/routes/template-finish-funnel.svg",
+    "distanceRequired": true,
+    "exampleDistanceM": 150
+  },
+  "16.3": {
+    "type": "route",
+    "source": "templates/routes/template-finish-untaped.svg",
+    "distanceRequired": true,
+    "exampleDistanceM": 380
+  }
+}

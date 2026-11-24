@@ -2,3 +2,6 @@
 node_modules
 dist
 sandbox
+__pycache__/
+*.py[cod]
+output/

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="32" viewBox="0 0 240 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="1" y="1" width="238" height="30" stroke-width="1.5" />
+  <path d="M20 16h18m5 0h18m5 0h18M156 16h24m5 0h24" />
+  <path d="m201 8 8 8-8 8" />
+  <path d="m213 6 18 10-18 10Z" />
+  <text data-field="distance" x="120" y="21" text-anchor="middle" font-family="sans-serif" font-size="17" stroke="none" fill="currentColor" />
+</svg>

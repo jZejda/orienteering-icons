@@ -1,0 +1,2699 @@
+{
+  "schemaVersion": 1,
+  "status": "local integration; not an IOF-certified reproduction",
+  "spec": "IOF Control Descriptions 2024",
+  "coverage": {
+    "reference_count": 123,
+    "represented_reference_count": 123,
+    "missing_references": [],
+    "excluded": "7.n country-specific extension slot; course header, numbering and textual runtime rules are not standalone SVGs",
+    "meaning": "Coverage by proposed representation only; not geometry or production conformance."
+  },
+  "referenceSource": {
+    "official_landing_page": "https://orienteering.sport/iof/rules/control-descriptions/",
+    "official_download_status": "403; official bytes not verified",
+    "reviewed_copy_url": "https://orient-murman.ru/images/drawmap/IOF%20Control%20Descriptions%202024.pdf",
+    "reviewed_copy_sha256": "6d09071beb788494b0be872725634ea4e6bad48dc34cabef1e0eea6b61279fa8",
+    "pages": 32,
+    "limitation": "IOF-authored 2024 document on a third-party mirror; byte equivalence to the inaccessible official download not established"
+  },
+  "entries": {
+    "0.1": {
+      "reference": "0.1",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "eastern",
+          "source": "icons/eastern.svg",
+          "symbolId": "eastern",
+          "reviewStatus": "legacy-preserved",
+          "referenceRelationship": "directional-extension-of-example",
+          "referenceExamples": [
+            "0.1",
+            "0.2"
+          ],
+          "origin": "icons/eastern.svg",
+          "baseDirection": "e",
+          "orientationValidation": {
+            "baseOrientationReviewed": true,
+            "autoRotation": false,
+            "note": "Existing direction-specific files are preserved; no rotations are generated."
+          }
+        },
+        {
+          "type": "icon",
+          "id": "north-eastern",
+          "source": "icons/north-eastern.svg",
+          "symbolId": "north-eastern",
+          "reviewStatus": "legacy-preserved",
+          "referenceRelationship": "directional-extension-of-example",
+          "referenceExamples": [
+            "0.1",
+            "0.2"
+          ],
+          "origin": "icons/north-eastern.svg",
+          "baseDirection": "ne",
+          "orientationValidation": {
+            "baseOrientationReviewed": true,
+            "autoRotation": false,
+            "note": "Existing direction-specific files are preserved; no rotations are generated."
+          }
+        },
+        {
+          "type": "icon",
+          "id": "north-western",
+          "source": "icons/north-western.svg",
+          "symbolId": "north-western",
+          "reviewStatus": "legacy-preserved",
+          "referenceRelationship": "directional-extension-of-example",
+          "referenceExamples": [
+            "0.1",
+            "0.2"
+          ],
+          "origin": "icons/north-western.svg",
+          "baseDirection": "nw",
+          "orientationValidation": {
+            "baseOrientationReviewed": true,
+            "autoRotation": false,
+            "note": "Existing direction-specific files are preserved; no rotations are generated."
+          }
+        },
+        {
+          "type": "icon",
+          "id": "northern",
+          "source": "icons/northern.svg",
+          "symbolId": "northern",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/northern.svg",
+          "baseDirection": "n",
+          "orientationValidation": {
+            "baseOrientationReviewed": true,
+            "autoRotation": false,
+            "note": "Existing direction-specific files are preserved; no rotations are generated."
+          }
+        },
+        {
+          "type": "icon",
+          "id": "south-western",
+          "source": "icons/south-western.svg",
+          "symbolId": "south-western",
+          "reviewStatus": "legacy-preserved",
+          "referenceRelationship": "directional-extension-of-example",
+          "referenceExamples": [
+            "0.1",
+            "0.2"
+          ],
+          "origin": "icons/south-western.svg",
+          "baseDirection": "sw",
+          "orientationValidation": {
+            "baseOrientationReviewed": true,
+            "autoRotation": false,
+            "note": "Existing direction-specific files are preserved; no rotations are generated."
+          }
+        },
+        {
+          "type": "icon",
+          "id": "southern",
+          "source": "icons/southern.svg",
+          "symbolId": "southern",
+          "reviewStatus": "legacy-preserved",
+          "referenceRelationship": "directional-extension-of-example",
+          "referenceExamples": [
+            "0.1",
+            "0.2"
+          ],
+          "origin": "icons/southern.svg",
+          "baseDirection": "s",
+          "orientationValidation": {
+            "baseOrientationReviewed": true,
+            "autoRotation": false,
+            "note": "Existing direction-specific files are preserved; no rotations are generated."
+          }
+        },
+        {
+          "type": "icon",
+          "id": "western",
+          "source": "icons/western.svg",
+          "symbolId": "western",
+          "reviewStatus": "legacy-preserved",
+          "referenceRelationship": "directional-extension-of-example",
+          "referenceExamples": [
+            "0.1",
+            "0.2"
+          ],
+          "origin": "icons/western.svg",
+          "baseDirection": "w",
+          "orientationValidation": {
+            "baseOrientationReviewed": true,
+            "autoRotation": false,
+            "note": "Existing direction-specific files are preserved; no rotations are generated."
+          }
+        }
+      ],
+      "category": "which-feature",
+      "primaryColumn": "C",
+      "allowedColumns": [
+        "C"
+      ],
+      "appearance": null
+    },
+    "0.2": {
+      "reference": "0.2",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "south-eastern",
+          "source": "icons/south-eastern.svg",
+          "symbolId": "south-eastern",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/south-eastern.svg",
+          "baseDirection": "se",
+          "orientationValidation": {
+            "baseOrientationReviewed": true,
+            "autoRotation": false,
+            "note": "Existing direction-specific files are preserved; no rotations are generated."
+          }
+        }
+      ],
+      "category": "which-feature",
+      "primaryColumn": "C",
+      "allowedColumns": [
+        "C"
+      ],
+      "appearance": null
+    },
+    "0.3": {
+      "reference": "0.3",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "upper",
+          "source": "icons/upper.svg",
+          "symbolId": "upper",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/upper.svg"
+        }
+      ],
+      "category": "which-feature",
+      "primaryColumn": "C",
+      "allowedColumns": [
+        "C"
+      ],
+      "appearance": null
+    },
+    "0.4": {
+      "reference": "0.4",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "lower",
+          "source": "icons/lower.svg",
+          "symbolId": "lower",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/lower.svg"
+        }
+      ],
+      "category": "which-feature",
+      "primaryColumn": "C",
+      "allowedColumns": [
+        "C"
+      ],
+      "appearance": null
+    },
+    "0.5": {
+      "reference": "0.5",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "middle",
+          "source": "icons/middle.svg",
+          "symbolId": "middle",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/middle.svg"
+        }
+      ],
+      "category": "which-feature",
+      "primaryColumn": "C",
+      "allowedColumns": [
+        "C"
+      ],
+      "appearance": null
+    },
+    "1.1": {
+      "reference": "1.1",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "terrace",
+          "source": "icons/terrace.svg",
+          "symbolId": "terrace",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/terrace.svg"
+        }
+      ],
+      "category": "landforms",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "1.2": {
+      "reference": "1.2",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "spur",
+          "source": "icons/spur.svg",
+          "symbolId": "spur",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/spur.svg"
+        }
+      ],
+      "category": "landforms",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "1.3": {
+      "reference": "1.3",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "re-entrant",
+          "source": "icons/re-entrant.svg",
+          "symbolId": "re-entrant",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/re-entrant.svg"
+        }
+      ],
+      "category": "landforms",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "1.4": {
+      "reference": "1.4",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "earth-bank",
+          "source": "icons/earth-bank.svg",
+          "symbolId": "earth-bank",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/earth-bank.svg"
+        }
+      ],
+      "category": "landforms",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "1.5": {
+      "reference": "1.5",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "quarry",
+          "source": "icons/quarry.svg",
+          "symbolId": "quarry",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/quarry.svg"
+        }
+      ],
+      "category": "landforms",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "1.6": {
+      "reference": "1.6",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "earth-wall",
+          "source": "icons/earth-wall.svg",
+          "symbolId": "earth-wall",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/earth-wall.svg"
+        }
+      ],
+      "category": "landforms",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "1.7": {
+      "reference": "1.7",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "erosion-gully",
+          "source": "icons/erosion-gully.svg",
+          "symbolId": "erosion-gully",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/erosion-gully.svg"
+        }
+      ],
+      "category": "landforms",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "1.8": {
+      "reference": "1.8",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "small-erosion-gully",
+          "source": "icons/small-erosion-gully.svg",
+          "symbolId": "small-erosion-gully",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/small-erosion-gully.svg"
+        }
+      ],
+      "category": "landforms",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "1.9": {
+      "reference": "1.9",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "hill",
+          "source": "icons/hill.svg",
+          "symbolId": "hill",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/hill.svg"
+        }
+      ],
+      "category": "landforms",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "1.10": {
+      "reference": "1.10",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "knoll",
+          "source": "icons/knoll.svg",
+          "symbolId": "knoll",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/knoll.svg"
+        },
+        {
+          "type": "icon",
+          "id": "knoll-iof-2024",
+          "symbolId": "knoll-iof-2024",
+          "source": "variants/iof-2024/knoll.svg",
+          "variant": "iof-2024",
+          "legacyId": "knoll",
+          "reviewStatus": "revised-local"
+        }
+      ],
+      "category": "landforms",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "1.11": {
+      "reference": "1.11",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "saddle",
+          "source": "icons/saddle.svg",
+          "symbolId": "saddle",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/saddle.svg"
+        }
+      ],
+      "category": "landforms",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "1.12": {
+      "reference": "1.12",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "depression",
+          "source": "icons/depression.svg",
+          "symbolId": "depression",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/depression.svg"
+        }
+      ],
+      "category": "landforms",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "1.13": {
+      "reference": "1.13",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "small-depression",
+          "source": "icons/small-depression.svg",
+          "symbolId": "small-depression",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/small-depression.svg"
+        }
+      ],
+      "category": "landforms",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "1.14": {
+      "reference": "1.14",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "pit",
+          "source": "icons/pit.svg",
+          "symbolId": "pit",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/pit.svg"
+        }
+      ],
+      "category": "landforms",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "1.15": {
+      "reference": "1.15",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "broken-ground",
+          "source": "icons/broken-ground.svg",
+          "symbolId": "broken-ground",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/broken-ground.svg"
+        }
+      ],
+      "category": "landforms",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "1.16": {
+      "reference": "1.16",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "ant-hill",
+          "source": "icons/ant-hill.svg",
+          "symbolId": "ant-hill",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/ant-hill.svg"
+        }
+      ],
+      "category": "landforms",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "2.1": {
+      "reference": "2.1",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "cliff-crag",
+          "source": "icons/cliff-crag.svg",
+          "symbolId": "cliff-crag",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/cliff-crag.svg"
+        }
+      ],
+      "category": "rock-and-boulders",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "2.2": {
+      "reference": "2.2",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "rock-pillar",
+          "source": "icons/rock-pillar.svg",
+          "symbolId": "rock-pillar",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/rock-pillar.svg"
+        },
+        {
+          "type": "icon",
+          "id": "rock-pillar-iof-2024",
+          "symbolId": "rock-pillar-iof-2024",
+          "source": "variants/iof-2024/rock-pillar.svg",
+          "variant": "iof-2024",
+          "legacyId": "rock-pillar",
+          "reviewStatus": "revised-local"
+        }
+      ],
+      "category": "rock-and-boulders",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "2.3": {
+      "reference": "2.3",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "cave",
+          "source": "icons/cave.svg",
+          "symbolId": "cave",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/cave.svg"
+        }
+      ],
+      "category": "rock-and-boulders",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "2.4": {
+      "reference": "2.4",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "boulder",
+          "source": "icons/boulder.svg",
+          "symbolId": "boulder",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/boulder.svg"
+        },
+        {
+          "type": "icon",
+          "id": "boulder-iof-2024",
+          "symbolId": "boulder-iof-2024",
+          "source": "variants/iof-2024/boulder.svg",
+          "variant": "iof-2024",
+          "legacyId": "boulder",
+          "reviewStatus": "revised-local"
+        }
+      ],
+      "category": "rock-and-boulders",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "2.5": {
+      "reference": "2.5",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "boulder-field",
+          "source": "icons/boulder-field.svg",
+          "symbolId": "boulder-field",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/boulder-field.svg"
+        },
+        {
+          "type": "icon",
+          "id": "boulder-field-iof-2024",
+          "symbolId": "boulder-field-iof-2024",
+          "source": "variants/iof-2024/boulder-field.svg",
+          "variant": "iof-2024",
+          "legacyId": "boulder-field",
+          "reviewStatus": "revised-local"
+        }
+      ],
+      "category": "rock-and-boulders",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "2.6": {
+      "reference": "2.6",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "boulder-cluster",
+          "source": "icons/boulder-cluster.svg",
+          "symbolId": "boulder-cluster",
+          "reviewStatus": "revised",
+          "origin": "handoff/imports/icons/boulder-cluster.svg"
+        }
+      ],
+      "category": "rock-and-boulders",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "2.7": {
+      "reference": "2.7",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "stony-ground",
+          "source": "icons/stony-ground.svg",
+          "symbolId": "stony-ground",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/stony-ground.svg"
+        }
+      ],
+      "category": "rock-and-boulders",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "2.8": {
+      "reference": "2.8",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "bare-rock",
+          "source": "icons/bare-rock.svg",
+          "symbolId": "bare-rock",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/bare-rock.svg"
+        }
+      ],
+      "category": "rock-and-boulders",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "2.9": {
+      "reference": "2.9",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "narrow-passage",
+          "source": "icons/narrow-passage.svg",
+          "symbolId": "narrow-passage",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/narrow-passage.svg"
+        }
+      ],
+      "category": "rock-and-boulders",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "2.10": {
+      "reference": "2.10",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "trench",
+          "source": "icons/trench.svg",
+          "symbolId": "trench",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/trench.svg"
+        }
+      ],
+      "category": "rock-and-boulders",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "3.1": {
+      "reference": "3.1",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "lake",
+          "source": "icons/lake.svg",
+          "symbolId": "lake",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/lake.svg"
+        }
+      ],
+      "category": "water-and-marsh",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "3.2": {
+      "reference": "3.2",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "pond",
+          "source": "icons/pond.svg",
+          "symbolId": "pond",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/pond.svg"
+        }
+      ],
+      "category": "water-and-marsh",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "3.3": {
+      "reference": "3.3",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "waterhole",
+          "source": "icons/waterhole.svg",
+          "symbolId": "waterhole",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/waterhole.svg"
+        }
+      ],
+      "category": "water-and-marsh",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "3.4": {
+      "reference": "3.4",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "river-stream",
+          "source": "icons/river-stream.svg",
+          "symbolId": "river-stream",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/river-stream.svg"
+        }
+      ],
+      "category": "water-and-marsh",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "3.5": {
+      "reference": "3.5",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "minor-wather-channel",
+          "source": "icons/minor-wather-channel.svg",
+          "symbolId": "minor-wather-channel",
+          "reviewStatus": "legacy-preserved",
+          "origin": "icons/minor-wather-channel.svg"
+        }
+      ],
+      "category": "water-and-marsh",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "3.6": {
+      "reference": "3.6",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "narrow-marsh",
+          "source": "icons/narrow-marsh.svg",
+          "symbolId": "narrow-marsh",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/narrow-marsh.svg"
+        }
+      ],
+      "category": "water-and-marsh",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "3.7": {
+      "reference": "3.7",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "marsh",
+          "source": "icons/marsh.svg",
+          "symbolId": "marsh",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/marsh.svg"
+        }
+      ],
+      "category": "water-and-marsh",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "3.8": {
+      "reference": "3.8",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "firm-ground-in-marsh",
+          "source": "icons/firm-ground-in-marsh.svg",
+          "symbolId": "firm-ground-in-marsh",
+          "reviewStatus": "revised",
+          "origin": "handoff/imports/icons/firm-ground-in-marsh.svg"
+        }
+      ],
+      "category": "water-and-marsh",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "3.9": {
+      "reference": "3.9",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "well",
+          "source": "icons/well.svg",
+          "symbolId": "well",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/well.svg"
+        }
+      ],
+      "category": "water-and-marsh",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "3.10": {
+      "reference": "3.10",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "spring",
+          "source": "icons/spring.svg",
+          "symbolId": "spring",
+          "reviewStatus": "revised",
+          "origin": "handoff/imports/icons/spring.svg"
+        }
+      ],
+      "category": "water-and-marsh",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "3.11": {
+      "reference": "3.11",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "water-tank",
+          "source": "icons/water-tank.svg",
+          "symbolId": "water-tank",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/water-tank.svg"
+        }
+      ],
+      "category": "water-and-marsh",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "4.1": {
+      "reference": "4.1",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "open-land",
+          "source": "icons/open-land.svg",
+          "symbolId": "open-land",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/open-land.svg"
+        }
+      ],
+      "category": "vegetation",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "4.2": {
+      "reference": "4.2",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "semi-open-land",
+          "source": "icons/semi-open-land.svg",
+          "symbolId": "semi-open-land",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/semi-open-land.svg"
+        }
+      ],
+      "category": "vegetation",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "4.3": {
+      "reference": "4.3",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "forest-corner",
+          "source": "icons/forest-corner.svg",
+          "symbolId": "forest-corner",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/forest-corner.svg"
+        }
+      ],
+      "category": "vegetation",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "4.4": {
+      "reference": "4.4",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "clearing",
+          "source": "icons/clearing.svg",
+          "symbolId": "clearing",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/clearing.svg"
+        }
+      ],
+      "category": "vegetation",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "4.5": {
+      "reference": "4.5",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "thicket",
+          "source": "icons/thicket.svg",
+          "symbolId": "thicket",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/thicket.svg"
+        }
+      ],
+      "category": "vegetation",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "4.6": {
+      "reference": "4.6",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "linear-thicket",
+          "source": "icons/linear-thicket.svg",
+          "symbolId": "linear-thicket",
+          "reviewStatus": "revised",
+          "origin": "handoff/imports/icons/linear-thicket.svg"
+        }
+      ],
+      "category": "vegetation",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "4.7": {
+      "reference": "4.7",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "vegetation-boundary",
+          "source": "icons/vegetation-boundary.svg",
+          "symbolId": "vegetation-boundary",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/vegetation-boundary.svg"
+        }
+      ],
+      "category": "vegetation",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "4.8": {
+      "reference": "4.8",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "copse",
+          "source": "icons/copse.svg",
+          "symbolId": "copse",
+          "reviewStatus": "revised",
+          "origin": "handoff/imports/icons/copse.svg"
+        }
+      ],
+      "category": "vegetation",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "4.9": {
+      "reference": "4.9",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "prominent-tree",
+          "source": "icons/prominent-tree.svg",
+          "symbolId": "prominent-tree",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/prominent-tree.svg"
+        }
+      ],
+      "category": "vegetation",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "4.10": {
+      "reference": "4.10",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "root-stock",
+          "source": "icons/root-stock.svg",
+          "symbolId": "root-stock",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/root-stock.svg"
+        }
+      ],
+      "category": "vegetation",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.1": {
+      "reference": "5.1",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "road",
+          "source": "icons/road.svg",
+          "symbolId": "road",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/road.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.2": {
+      "reference": "5.2",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "track-path",
+          "source": "icons/track-path.svg",
+          "symbolId": "track-path",
+          "reviewStatus": "revised",
+          "origin": "handoff/imports/icons/track-path.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.3": {
+      "reference": "5.3",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "ride",
+          "source": "icons/ride.svg",
+          "symbolId": "ride",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/ride.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.4": {
+      "reference": "5.4",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "bridge",
+          "source": "icons/bridge.svg",
+          "symbolId": "bridge",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/bridge.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.5": {
+      "reference": "5.5",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "power-line",
+          "source": "icons/power-line.svg",
+          "symbolId": "power-line",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/power-line.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.6": {
+      "reference": "5.6",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "pylon",
+          "source": "icons/pylon.svg",
+          "symbolId": "pylon",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/pylon.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.7": {
+      "reference": "5.7",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "tunnel",
+          "source": "icons/tunnel.svg",
+          "symbolId": "tunnel",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/tunnel.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.8": {
+      "reference": "5.8",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "wall",
+          "source": "icons/wall.svg",
+          "symbolId": "wall",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/wall.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.9": {
+      "reference": "5.9",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "fence",
+          "source": "icons/fence.svg",
+          "symbolId": "fence",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/fence.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.10": {
+      "reference": "5.10",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "crossing-point",
+          "source": "icons/crossing-point.svg",
+          "symbolId": "crossing-point",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/crossing-point.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.11": {
+      "reference": "5.11",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "building",
+          "source": "icons/building.svg",
+          "symbolId": "building",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/building.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.12": {
+      "reference": "5.12",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "paved-area",
+          "source": "icons/paved-area.svg",
+          "symbolId": "paved-area",
+          "reviewStatus": "revised",
+          "origin": "handoff/imports/icons/paved-area.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.13": {
+      "reference": "5.13",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "ruin",
+          "source": "icons/ruin.svg",
+          "symbolId": "ruin",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/ruin.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.14": {
+      "reference": "5.14",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "prominent-man-made-line",
+          "source": "icons/prominent-man-made-line.svg",
+          "symbolId": "prominent-man-made-line",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/prominent-man-made-line.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.15": {
+      "reference": "5.15",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "tower",
+          "source": "icons/tower.svg",
+          "symbolId": "tower",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/tower.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.16": {
+      "reference": "5.16",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "shooting-platform",
+          "source": "icons/shooting-platform.svg",
+          "symbolId": "shooting-platform",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/shooting-platform.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.17": {
+      "reference": "5.17",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "boundary-stone",
+          "source": "icons/boundary-stone.svg",
+          "symbolId": "boundary-stone",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/boundary-stone.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.18": {
+      "reference": "5.18",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "fodder-rack",
+          "source": "icons/fodder-rack.svg",
+          "symbolId": "fodder-rack",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/fodder-rack.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.19": {
+      "reference": "5.19",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "charcoal-burning-ground",
+          "source": "icons/charcoal-burning-ground.svg",
+          "symbolId": "charcoal-burning-ground",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/charcoal-burning-ground.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.20": {
+      "reference": "5.20",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "monument",
+          "source": "icons/monument.svg",
+          "symbolId": "monument",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/monument.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.21": {
+      "reference": "5.21",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "canopy",
+          "source": "icons/canopy.svg",
+          "symbolId": "canopy",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/canopy.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.22": {
+      "reference": "5.22",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "stairway",
+          "source": "icons/stairway.svg",
+          "symbolId": "stairway",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/stairway.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.23": {
+      "reference": "5.23",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "out-of-bounds-area",
+          "source": "icons/out-of-bounds-area.svg",
+          "symbolId": "out-of-bounds-area",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/out-of-bounds-area.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "5.24": {
+      "reference": "5.24",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "railway",
+          "source": "icons/railway.svg",
+          "symbolId": "railway",
+          "reviewStatus": "revised",
+          "origin": "handoff/imports/icons/railway.svg"
+        }
+      ],
+      "category": "man-made",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "6.1": {
+      "reference": "6.1",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "special-item-cross",
+          "source": "icons/special-item-cross.svg",
+          "symbolId": "special-item-cross",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/special-item-cross.svg"
+        }
+      ],
+      "category": "special-items",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "6.2": {
+      "reference": "6.2",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "special-item-circle",
+          "source": "icons/special-item-circle.svg",
+          "symbolId": "special-item-circle",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/special-item-circle.svg"
+        }
+      ],
+      "category": "special-items",
+      "primaryColumn": "D",
+      "allowedColumns": [
+        "D",
+        "E"
+      ],
+      "appearance": null
+    },
+    "8.1": {
+      "reference": "8.1",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "low",
+          "source": "icons/low.svg",
+          "symbolId": "low",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/low.svg"
+        }
+      ],
+      "category": "appearance",
+      "primaryColumn": "E",
+      "allowedColumns": [
+        "E"
+      ],
+      "appearance": "low"
+    },
+    "8.2": {
+      "reference": "8.2",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "shallow",
+          "source": "icons/shallow.svg",
+          "symbolId": "shallow",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/shallow.svg"
+        }
+      ],
+      "category": "appearance",
+      "primaryColumn": "E",
+      "allowedColumns": [
+        "E"
+      ],
+      "appearance": "shallow"
+    },
+    "8.3": {
+      "reference": "8.3",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "deep",
+          "source": "icons/deep.svg",
+          "symbolId": "deep",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/deep.svg"
+        }
+      ],
+      "category": "appearance",
+      "primaryColumn": "E",
+      "allowedColumns": [
+        "E"
+      ],
+      "appearance": "deep"
+    },
+    "8.4": {
+      "reference": "8.4",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "overgrown",
+          "source": "icons/overgrown.svg",
+          "symbolId": "overgrown",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/overgrown.svg"
+        }
+      ],
+      "category": "appearance",
+      "primaryColumn": "E",
+      "allowedColumns": [
+        "E"
+      ],
+      "appearance": "overgrown"
+    },
+    "8.5": {
+      "reference": "8.5",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "open",
+          "source": "icons/open.svg",
+          "symbolId": "open",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/open.svg"
+        }
+      ],
+      "category": "appearance",
+      "primaryColumn": "E",
+      "allowedColumns": [
+        "E"
+      ],
+      "appearance": "open"
+    },
+    "8.6": {
+      "reference": "8.6",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "rocky-stony",
+          "source": "icons/rocky-stony.svg",
+          "symbolId": "rocky-stony",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/rocky-stony.svg"
+        }
+      ],
+      "category": "appearance",
+      "primaryColumn": "E",
+      "allowedColumns": [
+        "E"
+      ],
+      "appearance": "rocky-stony"
+    },
+    "8.7": {
+      "reference": "8.7",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "marshy",
+          "source": "icons/marshy.svg",
+          "symbolId": "marshy",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/marshy.svg"
+        }
+      ],
+      "category": "appearance",
+      "primaryColumn": "E",
+      "allowedColumns": [
+        "E"
+      ],
+      "appearance": "marshy"
+    },
+    "8.8": {
+      "reference": "8.8",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "sandy",
+          "source": "icons/sandy.svg",
+          "symbolId": "sandy",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/sandy.svg"
+        }
+      ],
+      "category": "appearance",
+      "primaryColumn": "E",
+      "allowedColumns": [
+        "E"
+      ],
+      "appearance": "sandy"
+    },
+    "8.9": {
+      "reference": "8.9",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "needle-leaved",
+          "source": "icons/needle-leaved.svg",
+          "symbolId": "needle-leaved",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/needle-leaved.svg"
+        }
+      ],
+      "category": "appearance",
+      "primaryColumn": "E",
+      "allowedColumns": [
+        "E"
+      ],
+      "appearance": "needle-leaved"
+    },
+    "8.10": {
+      "reference": "8.10",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "broad-leaved",
+          "source": "icons/broad-leaved.svg",
+          "symbolId": "broad-leaved",
+          "reviewStatus": "revised",
+          "origin": "handoff/imports/icons/broad-leaved.svg"
+        }
+      ],
+      "category": "appearance",
+      "primaryColumn": "E",
+      "allowedColumns": [
+        "E"
+      ],
+      "appearance": "broad-leaved"
+    },
+    "8.11": {
+      "reference": "8.11",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "ruined",
+          "source": "icons/ruined.svg",
+          "symbolId": "ruined",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/ruined.svg"
+        }
+      ],
+      "category": "appearance",
+      "primaryColumn": "E",
+      "allowedColumns": [
+        "E"
+      ],
+      "appearance": "ruined"
+    },
+    "9.1": {
+      "reference": "9.1",
+      "representations": [
+        {
+          "type": "dynamic-layout",
+          "layout": "text",
+          "source": "data/layouts.json",
+          "example": "2.5",
+          "unit": "m",
+          "symbolId": null,
+          "reviewStatus": "dynamic-renderer"
+        }
+      ],
+      "category": "dimensions",
+      "primaryColumn": "F",
+      "allowedColumns": [
+        "F"
+      ],
+      "appearance": null
+    },
+    "9.2": {
+      "reference": "9.2",
+      "representations": [
+        {
+          "type": "dynamic-layout",
+          "layout": "dimensions",
+          "source": "data/layouts.json",
+          "example": "8 × 4",
+          "unit": "m",
+          "symbolId": null,
+          "reviewStatus": "dynamic-renderer"
+        }
+      ],
+      "category": "dimensions",
+      "primaryColumn": "F",
+      "allowedColumns": [
+        "F"
+      ],
+      "appearance": null
+    },
+    "9.3": {
+      "reference": "9.3",
+      "representations": [
+        {
+          "type": "dynamic-layout",
+          "layout": "split-diagonal",
+          "source": "data/layouts.json",
+          "example": [
+            "0.5",
+            "3"
+          ],
+          "unit": "m",
+          "symbolId": null,
+          "reviewStatus": "dynamic-renderer"
+        }
+      ],
+      "category": "dimensions",
+      "primaryColumn": "F",
+      "allowedColumns": [
+        "F"
+      ],
+      "appearance": null
+    },
+    "9.4": {
+      "reference": "9.4",
+      "representations": [
+        {
+          "type": "dynamic-layout",
+          "layout": "stacked",
+          "source": "data/layouts.json",
+          "example": [
+            "2",
+            "3"
+          ],
+          "unit": "m",
+          "symbolId": null,
+          "reviewStatus": "dynamic-renderer"
+        }
+      ],
+      "category": "dimensions",
+      "primaryColumn": "F",
+      "allowedColumns": [
+        "F"
+      ],
+      "appearance": null
+    },
+    "10.1": {
+      "reference": "10.1",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "crossing",
+          "source": "icons/crossing.svg",
+          "symbolId": "crossing",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/crossing.svg"
+        }
+      ],
+      "category": "combinations",
+      "primaryColumn": "F",
+      "allowedColumns": [
+        "F"
+      ],
+      "appearance": null
+    },
+    "10.2": {
+      "reference": "10.2",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "junction",
+          "source": "icons/junction.svg",
+          "symbolId": "junction",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/junction.svg"
+        }
+      ],
+      "category": "combinations",
+      "primaryColumn": "F",
+      "allowedColumns": [
+        "F"
+      ],
+      "appearance": null
+    },
+    "11.1": {
+      "reference": "11.1",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "bend",
+          "source": "icons/bend.svg",
+          "symbolId": "bend",
+          "reviewStatus": "base-orientation-checked",
+          "orientationRole": "bend shape; not a compass direction",
+          "origin": "handoff/imports/icons/bend.svg"
+        }
+      ],
+      "category": "bend",
+      "primaryColumn": "F",
+      "allowedColumns": [
+        "F"
+      ],
+      "appearance": null
+    },
+    "12.1": {
+      "reference": "12.1",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "side",
+          "source": "icons/side.svg",
+          "symbolId": "side",
+          "reviewStatus": "base-orientation-checked",
+          "origin": "handoff/imports/icons/side.svg",
+          "baseDirection": "ne",
+          "rotationValidation": {
+            "diagnosticOnly": true,
+            "boundsChecked": true,
+            "visualOrientationReviewed": true,
+            "publicVariantsGenerated": false
+          }
+        }
+      ],
+      "category": "flag-location",
+      "primaryColumn": "G",
+      "allowedColumns": [
+        "G"
+      ],
+      "appearance": null
+    },
+    "12.2": {
+      "reference": "12.2",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "edge",
+          "source": "icons/edge.svg",
+          "symbolId": "edge",
+          "reviewStatus": "revised",
+          "origin": "handoff/imports/icons/edge.svg",
+          "baseDirection": "se",
+          "rotationValidation": {
+            "diagnosticOnly": true,
+            "boundsChecked": true,
+            "visualOrientationReviewed": true,
+            "publicVariantsGenerated": false
+          }
+        }
+      ],
+      "category": "flag-location",
+      "primaryColumn": "G",
+      "allowedColumns": [
+        "G"
+      ],
+      "appearance": null
+    },
+    "12.3": {
+      "reference": "12.3",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "part",
+          "source": "icons/part.svg",
+          "symbolId": "part",
+          "reviewStatus": "base-orientation-checked",
+          "origin": "handoff/imports/icons/part.svg",
+          "baseDirection": "w",
+          "rotationValidation": {
+            "diagnosticOnly": true,
+            "boundsChecked": true,
+            "visualOrientationReviewed": true,
+            "publicVariantsGenerated": false
+          }
+        }
+      ],
+      "category": "flag-location",
+      "primaryColumn": "G",
+      "allowedColumns": [
+        "G"
+      ],
+      "appearance": null
+    },
+    "12.4": {
+      "reference": "12.4",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "corner-inside",
+          "source": "icons/corner-inside.svg",
+          "symbolId": "corner-inside",
+          "reviewStatus": "base-orientation-checked",
+          "origin": "handoff/imports/icons/corner-inside.svg",
+          "baseDirection": "e",
+          "rotationValidation": {
+            "diagnosticOnly": true,
+            "boundsChecked": true,
+            "visualOrientationReviewed": true,
+            "publicVariantsGenerated": false
+          }
+        }
+      ],
+      "category": "flag-location",
+      "primaryColumn": "G",
+      "allowedColumns": [
+        "G"
+      ],
+      "appearance": null
+    },
+    "12.5": {
+      "reference": "12.5",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "corner-outside",
+          "source": "icons/corner-outside.svg",
+          "symbolId": "corner-outside",
+          "reviewStatus": "base-orientation-checked",
+          "origin": "handoff/imports/icons/corner-outside.svg",
+          "baseDirection": "s",
+          "rotationValidation": {
+            "diagnosticOnly": true,
+            "boundsChecked": true,
+            "visualOrientationReviewed": true,
+            "publicVariantsGenerated": false
+          }
+        }
+      ],
+      "category": "flag-location",
+      "primaryColumn": "G",
+      "allowedColumns": [
+        "G"
+      ],
+      "appearance": null
+    },
+    "12.6": {
+      "reference": "12.6",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "tip",
+          "source": "icons/tip.svg",
+          "symbolId": "tip",
+          "reviewStatus": "base-orientation-checked",
+          "origin": "handoff/imports/icons/tip.svg",
+          "baseDirection": "sw",
+          "rotationValidation": {
+            "diagnosticOnly": true,
+            "boundsChecked": true,
+            "visualOrientationReviewed": true,
+            "publicVariantsGenerated": false
+          }
+        }
+      ],
+      "category": "flag-location",
+      "primaryColumn": "G",
+      "allowedColumns": [
+        "G"
+      ],
+      "appearance": null
+    },
+    "12.7": {
+      "reference": "12.7",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "end",
+          "source": "icons/end.svg",
+          "symbolId": "end",
+          "reviewStatus": "revised",
+          "origin": "handoff/imports/icons/end.svg",
+          "baseDirection": "nw",
+          "rotationValidation": {
+            "diagnosticOnly": true,
+            "boundsChecked": true,
+            "visualOrientationReviewed": true,
+            "publicVariantsGenerated": false
+          }
+        }
+      ],
+      "category": "flag-location",
+      "primaryColumn": "G",
+      "allowedColumns": [
+        "G"
+      ],
+      "appearance": null
+    },
+    "12.8": {
+      "reference": "12.8",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "upper-part",
+          "source": "icons/upper-part.svg",
+          "symbolId": "upper-part",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/upper-part.svg"
+        }
+      ],
+      "category": "flag-location",
+      "primaryColumn": "G",
+      "allowedColumns": [
+        "G"
+      ],
+      "appearance": null
+    },
+    "12.9": {
+      "reference": "12.9",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "lower-part",
+          "source": "icons/lower-part.svg",
+          "symbolId": "lower-part",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/lower-part.svg"
+        }
+      ],
+      "category": "flag-location",
+      "primaryColumn": "G",
+      "allowedColumns": [
+        "G"
+      ],
+      "appearance": null
+    },
+    "12.10": {
+      "reference": "12.10",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "top",
+          "source": "icons/top.svg",
+          "symbolId": "top",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/top.svg"
+        }
+      ],
+      "category": "flag-location",
+      "primaryColumn": "G",
+      "allowedColumns": [
+        "G"
+      ],
+      "appearance": null
+    },
+    "12.11": {
+      "reference": "12.11",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "foot",
+          "source": "icons/foot.svg",
+          "symbolId": "foot",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/foot.svg"
+        }
+      ],
+      "category": "flag-location",
+      "primaryColumn": "G",
+      "allowedColumns": [
+        "G"
+      ],
+      "appearance": null
+    },
+    "12.12": {
+      "reference": "12.12",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "directional-foot",
+          "source": "icons/directional-foot.svg",
+          "symbolId": "directional-foot",
+          "reviewStatus": "revised",
+          "origin": "handoff/imports/icons/directional-foot.svg",
+          "baseDirection": "ne",
+          "rotationValidation": {
+            "diagnosticOnly": true,
+            "boundsChecked": true,
+            "visualOrientationReviewed": true,
+            "publicVariantsGenerated": false
+          }
+        }
+      ],
+      "category": "flag-location",
+      "primaryColumn": "G",
+      "allowedColumns": [
+        "G"
+      ],
+      "appearance": null
+    },
+    "12.13": {
+      "reference": "12.13",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "beneath",
+          "source": "icons/beneath.svg",
+          "symbolId": "beneath",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/beneath.svg"
+        }
+      ],
+      "category": "flag-location",
+      "primaryColumn": "G",
+      "allowedColumns": [
+        "G"
+      ],
+      "appearance": null
+    },
+    "12.14": {
+      "reference": "12.14",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "between",
+          "source": "icons/between.svg",
+          "symbolId": "between",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/between.svg"
+        }
+      ],
+      "category": "flag-location",
+      "primaryColumn": "G",
+      "allowedColumns": [
+        "G"
+      ],
+      "appearance": null
+    },
+    "13.1": {
+      "reference": "13.1",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "first-aid-post",
+          "source": "icons/first-aid-post.svg",
+          "symbolId": "first-aid-post",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/first-aid-post.svg"
+        }
+      ],
+      "category": "other-information",
+      "primaryColumn": "H",
+      "allowedColumns": [
+        "H"
+      ],
+      "appearance": null
+    },
+    "13.2": {
+      "reference": "13.2",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "refreshment-point",
+          "source": "icons/refreshment-point.svg",
+          "symbolId": "refreshment-point",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/refreshment-point.svg"
+        }
+      ],
+      "category": "other-information",
+      "primaryColumn": "H",
+      "allowedColumns": [
+        "H"
+      ],
+      "appearance": null
+    },
+    "13.3": {
+      "reference": "13.3",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "manned-control",
+          "source": "icons/manned-control.svg",
+          "symbolId": "manned-control",
+          "reviewStatus": "accepted-candidate",
+          "origin": "handoff/imports/icons/manned-control.svg"
+        }
+      ],
+      "category": "other-information",
+      "primaryColumn": "H",
+      "allowedColumns": [
+        "H"
+      ],
+      "appearance": null
+    },
+    "14.1": {
+      "reference": "14.1",
+      "representations": [
+        {
+          "type": "layout-template",
+          "id": "template-start-distance",
+          "source": "templates/routes/template-start-distance.svg",
+          "symbolId": null,
+          "reviewStatus": "revised-local",
+          "distanceDynamic": true,
+          "exampleDistanceM": 150,
+          "productionReady": true,
+          "origin": "handoff/imports/route-templates/template-start-distance.svg"
+        }
+      ],
+      "category": "start-distance",
+      "primaryColumn": null,
+      "allowedColumns": [],
+      "appearance": null
+    },
+    "15.1": {
+      "reference": "15.1",
+      "representations": [
+        {
+          "type": "layout-template",
+          "id": "template-taped-away",
+          "source": "templates/routes/template-taped-away.svg",
+          "symbolId": null,
+          "reviewStatus": "revised-local",
+          "distanceDynamic": true,
+          "exampleDistanceM": 60,
+          "productionReady": true,
+          "origin": "handoff/imports/route-templates/template-taped-away.svg"
+        }
+      ],
+      "category": "special-instructions",
+      "primaryColumn": null,
+      "allowedColumns": [],
+      "appearance": null
+    },
+    "15.2": {
+      "reference": "15.2",
+      "representations": [
+        {
+          "type": "layout-template",
+          "id": "template-taped-between",
+          "source": "templates/routes/template-taped-between.svg",
+          "symbolId": null,
+          "reviewStatus": "revised-local",
+          "distanceDynamic": true,
+          "exampleDistanceM": 300,
+          "productionReady": true,
+          "origin": "handoff/imports/route-templates/template-taped-between.svg"
+        }
+      ],
+      "category": "special-instructions",
+      "primaryColumn": null,
+      "allowedColumns": [],
+      "appearance": null
+    },
+    "15.3": {
+      "reference": "15.3",
+      "representations": [
+        {
+          "type": "layout-template",
+          "id": "template-mandatory-crossing",
+          "source": "templates/routes/template-mandatory-crossing.svg",
+          "symbolId": null,
+          "reviewStatus": "revised-local",
+          "distanceDynamic": false,
+          "exampleDistanceM": null,
+          "productionReady": true,
+          "origin": "handoff/imports/route-templates/template-mandatory-crossing.svg"
+        }
+      ],
+      "category": "special-instructions",
+      "primaryColumn": null,
+      "allowedColumns": [],
+      "appearance": null
+    },
+    "15.4": {
+      "reference": "15.4",
+      "representations": [
+        {
+          "type": "layout-template",
+          "id": "template-mandatory-passage",
+          "source": "templates/routes/template-mandatory-passage.svg",
+          "symbolId": null,
+          "reviewStatus": "revised-local",
+          "distanceDynamic": false,
+          "exampleDistanceM": null,
+          "productionReady": true,
+          "origin": "handoff/imports/route-templates/template-mandatory-passage.svg"
+        }
+      ],
+      "category": "special-instructions",
+      "primaryColumn": null,
+      "allowedColumns": [],
+      "appearance": null
+    },
+    "15.5": {
+      "reference": "15.5",
+      "representations": [
+        {
+          "type": "layout-template",
+          "id": "template-taped-to-map-exchange",
+          "source": "templates/routes/template-taped-to-map-exchange.svg",
+          "symbolId": null,
+          "reviewStatus": "revised-local",
+          "distanceDynamic": true,
+          "exampleDistanceM": 50,
+          "productionReady": true,
+          "origin": "handoff/imports/route-templates/template-taped-to-map-exchange.svg"
+        }
+      ],
+      "category": "special-instructions",
+      "primaryColumn": null,
+      "allowedColumns": [],
+      "appearance": null
+    },
+    "15.6": {
+      "reference": "15.6",
+      "representations": [
+        {
+          "type": "icon",
+          "id": "map-flip",
+          "source": "icons/map-flip.svg",
+          "symbolId": "map-flip",
+          "reviewStatus": "revised",
+          "origin": "handoff/imports/icons/map-flip.svg"
+        },
+        {
+          "type": "layout-template",
+          "id": "template-map-flip-row",
+          "source": "templates/routes/template-map-flip-row.svg",
+          "symbolId": null,
+          "reviewStatus": "revised-local",
+          "distanceDynamic": false,
+          "exampleDistanceM": null,
+          "productionReady": true,
+          "origin": "handoff/imports/route-templates/template-map-flip-row.svg"
+        }
+      ],
+      "category": "special-instructions",
+      "primaryColumn": null,
+      "allowedColumns": [],
+      "appearance": null
+    },
+    "16.1": {
+      "reference": "16.1",
+      "representations": [
+        {
+          "type": "layout-template",
+          "id": "template-finish-taped",
+          "source": "templates/routes/template-finish-taped.svg",
+          "symbolId": null,
+          "reviewStatus": "revised-local",
+          "distanceDynamic": true,
+          "exampleDistanceM": 400,
+          "productionReady": true,
+          "origin": "handoff/imports/route-templates/template-finish-taped.svg"
+        }
+      ],
+      "category": "finish",
+      "primaryColumn": null,
+      "allowedColumns": [],
+      "appearance": null
+    },
+    "16.2": {
+      "reference": "16.2",
+      "representations": [
+        {
+          "type": "layout-template",
+          "id": "template-finish-funnel",
+          "source": "templates/routes/template-finish-funnel.svg",
+          "symbolId": null,
+          "reviewStatus": "revised-local",
+          "distanceDynamic": true,
+          "exampleDistanceM": 150,
+          "productionReady": true,
+          "origin": "handoff/imports/route-templates/template-finish-funnel.svg"
+        }
+      ],
+      "category": "finish",
+      "primaryColumn": null,
+      "allowedColumns": [],
+      "appearance": null
+    },
+    "16.3": {
+      "reference": "16.3",
+      "representations": [
+        {
+          "type": "layout-template",
+          "id": "template-finish-untaped",
+          "source": "templates/routes/template-finish-untaped.svg",
+          "symbolId": null,
+          "reviewStatus": "revised-local",
+          "distanceDynamic": true,
+          "exampleDistanceM": 380,
+          "productionReady": true,
+          "origin": "handoff/imports/route-templates/template-finish-untaped.svg"
+        }
+      ],
+      "category": "finish",
+      "primaryColumn": null,
+      "allowedColumns": [],
+      "appearance": null
+    }
+  },
+  "aliases": [
+    {
+      "id": "minor-water-channel",
+      "target": "minor-wather-channel"
+    }
+  ],
+  "rotationPolicy": {
+    "autoGenerate": false,
+    "rotationOrigin": [
+      12,
+      12
+    ],
+    "angleConvention": "clockwise from north; rotate targetAngle - baseAngle",
+    "note": "Original example orientations remain public. Rotations are checked locally, not added as public IDs."
+  },
+  "provenance": {
+    "originalIcons": "Preserved byte-for-byte; see data/legacy-icons.json and LICENSE.",
+    "newDrawings": "Manually revised from handoff proposals; official IOF reference artwork is not bundled.",
+    "newDrawingsDistributionRights": "Not established by this technical review; clarify before publishing."
+  }
+}
